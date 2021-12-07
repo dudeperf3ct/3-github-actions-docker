@@ -1,6 +1,6 @@
 #### Github Actions with Docker
 
-[![GH Docker Compose with locust load testing](https://github.com/dudeperf3ct/3-github-actions-docker/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/dudeperf3ct/3-github-actions-docker/actions/workflows/main.yml)
+[![GH Docker Compose with locust load testing](https://github.com/dudeperf3ct/3-github-actions-docker/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/dudeperf3ct/3-github-actions-docker/actions/workflows/main.yml)
 
 In the exercise, we will implement the following.
 

@@ -1,5 +1,7 @@
 #### Github Actions with Docker
 
+[![GH Docker Compose with locust load testing](https://github.com/dudeperf3ct/3-github-actions-docker/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/dudeperf3ct/3-github-actions-docker/actions/workflows/main.yml)
+
 In the exercise, we will implement the following.
 
 1. Containerize a GitHub project by integrating a Dockerfile and automatically registering new containers to a Container Registry.

@@ -13,11 +13,11 @@ Check if
 in github actions build log
 
 ```bash
-web_1     |  * Running on http://172.18.0.3:8000/ (Press CTRL+C to quit)
+web_1     |  * Running on http://172.18.0.2:8000/ (Press CTRL+C to quit)
 ```
 and in `docker-compose.yml`
 
 ```bash
-command: -f /app/locustfile.py --host=http://172.18.0.3:8000/ --headless -u 1000 -r 100 -t 10s
+command: -f /app/locustfile.py --host=http://172.18.0.2:8000/ --headless -u 1000 -r 100 -t 10s
 ```
 are same.

@@ -1,0 +1,15 @@
+services:
+  web:
+    build: .
+    volumes:
+      - .:/app
+    ports:
+      - "8000:8000"
+    command: python /app/app.py
+  locust:
+    image: locustio/locust
+    ports:
+      - "8089:8089"
+    volumes:
+      - .:/app
+    command: -f /app/locustfile.py --host=http://172.18.0.2:8000/ --headless -u 1000 -r 100 -t 10s
